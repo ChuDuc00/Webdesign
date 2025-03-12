@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .top-menu {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+        .top-menu a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .sidebar {
+            width: 250px;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .sidebar ul {
+            list-style: none;
+        }
+        .sidebar ul li {
+            padding: 10px 0;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .box {
+            background: #dff0d8;
+            padding: 20px;
+            width: 70%;
+            margin: auto;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-menu">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+        <a href="#">SQL</a>
+        <a href="#">Python</a>
+        <a href="#">Java</a>
+        <a href="#">PHP</a>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>HTML Home</li>
+                <li>HTML Introduction</li>
+                <li>HTML Editors</li>
+                <li>HTML Basic</li>
+                <li>HTML Elements</li>
+                <li>HTML Attributes</li>
+                <li>HTML Headings</li>
+                <li>HTML Paragraphs</li>
+                <li>HTML Styles</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="title">HTML Tutorial</div>
+            <div class="box">
+                <h3>Learn HTML</h3>
+                <p>HTML is the standard markup language for web pages.</p>
+                <p>With HTML you can create your own Website.</p>
+                <p>HTML is easy to learn - You will enjoy it!</p>
+                <button>Start learning HTML now »</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
